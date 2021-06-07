@@ -31,7 +31,9 @@ This package was written in Javascript using a simple framework using Supertest 
 
 - Using common syntax and languages makes the framework easier to maintain as a team
 
-from looking in the network console of `https://serene-mountain-14043.herokuapp.com/` it was clear to see that the frontend was calling `https://fierce-gorge-81903.herokuapp.com/api` for the weatherapp-api, which was a public endpoint.
+- By using Supertest and Jest the test suite is also very easy to add to a CI/CD pipeline and cna be configured to run against a locally run server as well using something such as Express
+
+From looking in the network console of `https://serene-mountain-14043.herokuapp.com/` it was clear to see that the frontend was calling `https://fierce-gorge-81903.herokuapp.com/api` for the weatherapp-api, which was a public endpoint.
 
 Test coverage was broken down based on the three primary use cases, with a file for each:
 * Valid existing postcode
